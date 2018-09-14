@@ -5,7 +5,7 @@
 # authors: Ondřej Surý
 
 auth_provider :title => 'with mojeID',
-              :authenticator => Auth::OpenIdAuthenticator.new('mojeid','https://mojeid.cz/endpoint/', trusted: true),
+              :authenticator => Auth::OpenIdAuthenticator.new('mojeid', 'https://mojeid.cz/endpoint/', 'mojeid_enabled', trusted: true),
               :message => 'Authenticating with mojeID (make sure pop up blockers are not enabled)',
               :frame_width => 530,   # the frame size used for the pop up window, overrides default
               :frame_height => 600

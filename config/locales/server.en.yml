@@ -1,0 +1,8 @@
+---
+# mojeID plugin translations
+
+en:
+  site_settings:
+    mojeid_enabled: "Enable mojeID plugin"
+
+...

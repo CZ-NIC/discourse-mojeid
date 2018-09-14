@@ -1,0 +1,9 @@
+---
+# MojeID plugin settngs
+
+plugins:
+  mojeid_enabled:
+    default: true
+    client: true
+
+...
