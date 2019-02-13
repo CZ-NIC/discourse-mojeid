@@ -1,8 +1,8 @@
-# coding: utf-8
 # name: discourse-mojeid
 # about: mojeID login support for Discourse
 # version: 0.0.2
 # authors: Ondřej Surý, Vojtěch Myslivec
+# url: https://github.com/CZ-NIC/discourse-mojeid
 
 auth_provider :title => 'with mojeID',
               :authenticator => Auth::OpenIdAuthenticator.new('mojeid', 'https://mojeid.cz/endpoint/', 'mojeid_enabled', trusted: true),
